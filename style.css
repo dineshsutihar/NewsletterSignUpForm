@@ -93,7 +93,7 @@ input {
 .screen2 h1{
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .screen2 p{
     font-weight: 400;
@@ -106,9 +106,13 @@ input {
 
 .success-msg{
    margin-top: 30vw;
+   text-align: left;
 }
 .success-msg img{
     margin-bottom: 30px;
+}
+.success-msg span{
+    font-weight: 700   ;
 }
 
 /* media query for mobile devices  */
