@@ -38,23 +38,23 @@ form {
   
   
 }
+input, .btn {
+    box-sizing: border-box;
+    width: 85vw;
+    height: 50px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
 input {
-  border-radius: 10px;
     border: 1px solid hsl(231, 7%, 60%);
-  padding: 10px;
-  width:80vw;
-  height: 30px;
-  margin: 10px 0;
+    
 }
 
 .btn{
     background-color: hsl(234, 29%, 20%);
     color: white;
-    border-radius: 10px;
-    padding: 10px;
-    width: 80vw;
-    height: 30px;
-    margin: 10px 0;
     border: none;
     cursor: pointer;
 }
