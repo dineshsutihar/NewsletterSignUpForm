@@ -29,10 +29,12 @@
     margin: 20px;
 }
 
-.text h1{
+h1{
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 10px;
+    color: hsl(234, 29%, 20%);
+
 }
 .flex-item{
     margin-top: 30px;
@@ -84,16 +86,16 @@ input {
 }
 /* screen 2 */
 .screen2 {
-  display: flex;
+    display: flex;
+  /* display: none; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 20px;
 }
 .screen2 h1{
-    font-size: 2rem;
-    font-weight: 700;
     margin-bottom: 20px;
+
 }
 .screen2 p{
     font-weight: 400;
