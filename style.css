@@ -122,7 +122,9 @@ footer {
 
 /* media query for mobile devices  */
 @media only screen and (max-width: 412px) {
-  
+  .desktop_img{
+    display: none;
+  }
 }
 
 /* media query for laptop */
