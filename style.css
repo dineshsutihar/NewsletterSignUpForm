@@ -129,5 +129,10 @@ footer {
 
 /* media query for laptop */
 @media only screen and (min-width: 1024px) {
-  
+  .mobile_img{
+    display: none;
+  }
+  .desktop_img{
+    display: block;
+  }
 }
