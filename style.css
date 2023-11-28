@@ -107,7 +107,7 @@ input {
 }
 
 .success-msg{
-   margin-top: 30vw;
+   margin-top: 25vh;
    text-align: left;
 }
 .success-msg img{
@@ -116,10 +116,11 @@ input {
 .success-msg span{
     font-weight: 700   ;
 }
+footer {
+    display: none;
+  }
 
 /* media query for mobile devices  */
 @media only screen and (max-width: 412px) {
-  footer {
-    display: none;
-  }
+  
 }
