@@ -129,9 +129,9 @@ footer {
   .mobile_img {
     display: none;
   }
-  .desktop_img {
+  /* .desktop_img {
     display: none;
-  }
+  } */
   .container {
     background-color: hsl(234, 29%, 20%);
     width: 100vw;
@@ -139,7 +139,7 @@ footer {
   }
   .screen1 {
     background-color: hsl(0, 0%, 100%);
-    width: 700px;
+    width: 750px;
     height: 600px;
     border: 2px solid hsl(17, 100%, 50%);
     border-radius: 10px;
@@ -149,7 +149,11 @@ footer {
     position: relative; /* Add this line */
   }
   .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
     width: 50%;
-    height: 40%;
+    border-radius: 10px;
+    margin: 20px;
   }
 }
