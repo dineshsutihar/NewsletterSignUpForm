@@ -135,8 +135,9 @@ footer {
   .container {
     background-color: hsl(234, 29%, 20%);
     width: 100vw;
-    height: 100vh; /* Fix typo here */
+    height: 100vh;
   }
+
   .screen1 {
     background-color: hsl(0, 0%, 100%);
     width: 750px;
@@ -146,14 +147,32 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    position: relative; /* Add this line */
+    position: relative;
+    display: grid;
+    grid-template-areas:
+      'text img'
+      'form img';
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
   }
+
   .hero-img {
     width: 100%;
+    grid-area: img;
   }
+
   .hero-img img {
-    width: 50%;
+    width: 100%;
     border-radius: 10px;
     margin: 20px;
+  }
+
+  .text {
+    grid-area: text;
+    margin: 20px;
+  }
+
+  form {
+    grid-area: form;
   }
 }
