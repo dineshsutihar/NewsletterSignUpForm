@@ -13,7 +13,7 @@
 }
 
 .screen1 {
-  display: flex;
+  /* display: flex; */
   /* display: none; */
   flex-direction: column;
 }
@@ -131,10 +131,10 @@ footer {
   .desktop_img {
     display: none;
   }
-  body {
+  .container {
     background-color: hsl(234, 29%, 20%);
   }
-  main {
+  .screen1 {
     background-color: hsl(0, 0%, 100%);
   }
   .hero-img {
