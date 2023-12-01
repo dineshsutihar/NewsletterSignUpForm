@@ -60,10 +60,6 @@ fieldset {
   padding: 0;
 }
 
-legend {
-  font-size: small;
-  font-weight: 700;
-}
 
 form {
   margin: 20px;
@@ -237,11 +233,19 @@ footer {
     margin-top: 40px;
   }
 }
+.email_top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+  font-weight: 700;
+
+}
 
 /* Some finishup  */
-input[type="email"]:invalid + span {
-  position: absolute;
-  margin-top: -20px;
-  color: red;
+input[type="email"]:invalid,#emailError {
+  /* position: absolute; */
+  /* margin-top: -20px; */
+  color: hsl(4, 100%, 67%);
 }
 

@@ -62,7 +62,10 @@
 
         <form action="" method="post">
           <fieldset>
+            <div class="email_top">
             <legend>Email address</legend>
+            <span id="emailError"></span>
+          </div>
             <input
               type="email"
               name="email"
@@ -70,7 +73,7 @@
               placeholder="email@company.com"
               required
             />
-            <span id="emailError"></span>
+            
             <button type="submit" class="btn">
               Subscribe to monthly newsletter
             </button>
