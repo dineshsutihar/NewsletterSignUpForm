@@ -237,3 +237,11 @@ footer {
     margin-top: 40px;
   }
 }
+
+/* Some finishup  */
+input[type="email"]:invalid + span {
+  position: absolute;
+  margin-top: -20px;
+  color: red;
+}
+

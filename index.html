@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
     <!-- displays site properly based on user's device -->
 
     <link
@@ -68,7 +69,9 @@
               id="email"
               placeholder="email@company.com"
               required
+              oninvalid="this.setCustomValidity('Valid email required')" oninput="this.setCustomValidity('')"
             />
+            <span></span>
             <button type="submit" class="btn">
               Subscribe to monthly newsletter
             </button>
