@@ -60,6 +60,10 @@ fieldset {
   padding: 0;
 }
 
+#emailError, legend {
+  font-size: small;
+  font-weight: 700;
+}
 
 form {
   margin: 20px;
