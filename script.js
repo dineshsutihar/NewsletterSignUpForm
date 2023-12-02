@@ -1,8 +1,6 @@
 window.onload = function() {
     const emailInput = document.getElementById('email');
     const emailError = document.getElementById('emailError');
-    const screen1 = document.querySelector('.screen1');
-    const screen2 = document.querySelector('.screen2');
 
     emailInput.oninvalid = function(event) {
         event.preventDefault();
@@ -12,4 +10,9 @@ window.onload = function() {
     emailInput.oninput = function() {
         emailError.textContent = '';
     }
+    // document.querySelector('.btn').addEventListener('click', function(event) {
+    //     event.preventDefault();
+    //     document.getElementById('screen1').style.display = 'none';
+    //     document.getElementById('screen2').style.display = 'flex';
+    // });
 }
