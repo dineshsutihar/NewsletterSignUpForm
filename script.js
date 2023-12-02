@@ -10,9 +10,9 @@ window.onload = function() {
     emailInput.oninput = function() {
         emailError.textContent = '';
     }
-    // document.querySelector('.btn').addEventListener('click', function(event) {
-    //     event.preventDefault();
-    //     document.getElementById('screen1').style.display = 'none';
-    //     document.getElementById('screen2').style.display = 'flex';
-    // });
+    document.querySelector('.btn').addEventListener('click', function(event) {
+        // event.preventDefault();
+        document.getElementById('screen1').style.display = 'none';
+        document.getElementById('screen2').style.display = 'flex';
+    });
 }
