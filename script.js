@@ -18,8 +18,9 @@ window.onload = function() {
     });
     dismissBtn.addEventListener('click', function () {
         // Dismiss button logic, for example, hide the success message
+        document.querySelector('.screen1').style.display = 'flex';
         document.querySelector('.screen2').style.display = 'none';
         // Optionally, you can reset the form or perform other actions here
-        document.querySelector('.screen1').style.display = 'flex';
+        
       });
 }
