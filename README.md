@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/dineshsutihar/InteractiveRating)
-- Live Site URL: [Live](https://dineshsutihar.github.io/InteractiveRating/)
+- Solution URL: [Github](https://github.com/dineshsutihar/NewsletterSignUpForm)
+- Live Site URL: [Live](https://dineshsutihar.github.io/NewsletterSignUpForm)
 
 ## My process
 
