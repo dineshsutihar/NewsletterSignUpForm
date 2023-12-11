@@ -1,6 +1,7 @@
 window.onload = function() {
     const emailInput = document.getElementById('email');
     const emailError = document.getElementById('emailError');
+    var emaildata = document.getElementById("emaildata");
     const dismissBtn = document.querySelector('.dismiss-btn');
 
     emailInput.oninvalid = function(event) {
@@ -17,8 +18,11 @@ window.onload = function() {
         if (emailInput.checkValidity()) {
             document.querySelector('.screen1').style.display = 'none';
             document.querySelector('.screen2').style.display = 'flex';
+            var emailValue = emailInput.value;
+            emaildata.textContent = emailValue;
         }
     }); 
+
     
     dismissBtn.addEventListener('click', function () {
         // Dismiss button logic, for example, hide the success message
